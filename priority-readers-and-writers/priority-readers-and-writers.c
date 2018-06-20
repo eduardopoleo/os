@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
 }
 
 void *readerMain(void *threadArgument) {
-
+	// cast the threadArgument pointer
 	int id = *((int*)threadArgument);
 	int i = 0, numReaders = 0;	
 
